@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percabangan If-elseif-else</title>
+  </head>
+  <body>
+    <script>
+      var nilai = prompt(" Inputkan Nilai Anda ");
+      var grade = "";
+      if (nilai >= 90) {
+        grade = "A";
+      } else if (nilai >= 80) {
+        grade = "B+";
+      } else if (nilai >= 70) {
+        grade = "B";
+      } else if (nilai >= 60) {
+        grade = "C";
+      } else {
+        grade = "F";
+      }
+      document.write(`<p> Grade Anda adalah : ${grade} </p>`);
+    </script>
+  </body>
+</html>
